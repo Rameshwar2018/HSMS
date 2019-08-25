@@ -1,0 +1,94 @@
+﻿#titlebar a
+{
+   font-family:Century Gothic;
+   font-size:25px;
+   margin-left:90px;
+   color:White;
+}
+
+
+#menubar
+{
+    height:60px;
+}
+
+#menubar a, ul
+{
+    margin-top:5px;
+}
+
+.section {
+    background-color: #4E63D1;
+    color: #fff;
+    margin-top:62px;
+    height:200px;
+}
+
+
+#footer
+{
+	margin-top:420px; 
+	background-color:#222222; 
+	color:White; 
+	height:50px; 
+	padding-top:18px;
+	width:1350px;
+	margin-left:-105px;
+}
+
+#footerab
+{
+	margin-top:100px; 
+	background-color:#222222; 
+	color:White; 
+	height:50px; 
+	padding-top:18px;
+	width:1350px;
+	margin-left:-105px;
+}
+
+
+/* admin menu */
+
+
+#admenu
+{
+	margin-top:90px;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+#admenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    border-radius:7%; 
+    box-shadow:1px 2px 1px; 
+    border-bottom-style:groove;
+}
+
+#admenu li {
+    float: left;
+}
+
+#admenu li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#admenu li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#admenu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* end of admin menu */
